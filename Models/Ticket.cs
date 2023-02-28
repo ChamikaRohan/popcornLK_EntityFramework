@@ -10,7 +10,10 @@ namespace popcornLK.Models
         public string Seat_No { get; set; }
         public string Ticket_Type { get; set; }
 
-    
+        public string CustomerNIC { get; set; }
+        public Customer Customer { get; set; }
+        public int TheaterID { get; set; }
+        public Theater Theater { get; set; }
     }
 
 }

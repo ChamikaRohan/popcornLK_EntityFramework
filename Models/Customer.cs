@@ -14,6 +14,6 @@ namespace popcornLK.Models
         public string First_Name { get; set; }
         public string Last_Name { get; set; }
 
-
+        public ICollection<Ticket> Buys { get; set; }
     }
 }

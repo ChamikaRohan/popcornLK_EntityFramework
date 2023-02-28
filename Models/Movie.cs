@@ -13,6 +13,7 @@ namespace popcornLK.Models
         public string three_d_or_not { get; set; }
         public string RunTime  { get; set; }
         public string Last_Name { get; set; }
+        public ICollection<Ticket> Has { get; set;
 
     }
 }
