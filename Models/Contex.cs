@@ -9,6 +9,10 @@ public class Contex : DbContext
     public DbSet<Customer> Customers { get; set; }
 
     public DbSet<Ticket> Tickets { get; set; }
+    public DbSet<Movie> Movies { get; set; }
+    public DbSet<Theater> Theaters { get; set; }
+    public DbSet<Genre> Genres { get; set; }
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

@@ -10,13 +10,7 @@ namespace popcornLK.Models
         public string Seat_No { get; set; }
         public string Ticket_Type { get; set; }
 
-        // Foreign key property for the CUSTOMER entity
-        public string CustomerNIC { get; set; }
-
-        // Navigation property for the CUSTOMER entity
-        public Customer Customer { get; set; }
-
-        // Foreign key property for the THEATER 
+    
     }
 
 }
