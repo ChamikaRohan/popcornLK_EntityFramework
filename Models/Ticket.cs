@@ -14,6 +14,8 @@ namespace popcornLK.Models
         public Customer Customer { get; set; }
         public int TheaterID { get; set; }
         public Theater Theater { get; set; }
+        public int M_ID { get; set; }
+        public Movie Movie { get; set; }
     }
 
 }

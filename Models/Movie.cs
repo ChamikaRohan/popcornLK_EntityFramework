@@ -12,9 +12,8 @@ namespace popcornLK.Models
         public int Ratings { get; set; }
         public string three_d_or_not { get; set; }
         public string RunTime  { get; set; }
-        public string Last_Name { get; set; }
-        public ICollection<Ticket> Has { get; set;
-
+        public ICollection<Ticket> Has { get; set; }
+        public ICollection<Genre> BelongsTo { get; set; }
     }
 }
  

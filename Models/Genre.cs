@@ -10,6 +10,7 @@ namespace popcornLK.Models
         public string Genre_Name { get; set; }
         public string Genre_Discriptionj { get; set; }
         public string Movies_Count { get; set; }
+        public ICollection<Movie> BelongsTo { get; set; }
     }
 
 }
