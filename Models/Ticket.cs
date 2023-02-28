@@ -16,7 +16,7 @@ namespace popcornLK.Models
         // Navigation property for the CUSTOMER entity
         public Customer Customer { get; set; }
 
-        // Foreign key property for the THEATER entity
+        // Foreign key property for the THEATER 
     }
 
 }
