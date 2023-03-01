@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace popcornLK.Controllers
+namespace PopcornEntityFramework.Controllers
 {
     [ApiController]
     [Route("[controller]")]

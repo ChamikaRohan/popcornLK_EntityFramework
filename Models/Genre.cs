@@ -3,7 +3,7 @@ using System.Net.Sockets;
 
 namespace popcornLK.Models
 {
-    public class Genre 
+    public class Genre
     {
         [Key]
         public int Genre_ID { get; set; }

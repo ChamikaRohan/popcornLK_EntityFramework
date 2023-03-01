@@ -1,4 +1,4 @@
-namespace popcornLK
+namespace PopcornEntityFramework
 {
     public class WeatherForecast
     {
